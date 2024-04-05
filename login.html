@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>SkillsUp with Mentors</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body style="background-color: lightslategrey;">
+    <div class="containerlog">
+        <form style="background-color: lightslategrey; height: 400px; width: 500px; margin-left: 50px;" >
+            <h1 style="margin-left: 80px; align-content: center ;">Login Form</h1><br>
+            <div class="form-control">
+                <label>Email</label><br>
+                <input type="email" style="height: 30px; width: 250px;" required />
+                
+              </div><br>
+              <div class="form-control">
+                <label>Password</label><br>
+                <input type="password"  style="height: 30px; width: 250px;" required />
+                
+              </div><br>
+              <button class="btn1" style="margin-left: 80px; margin-top: 20px; width: 90px; height: 60px;"><a href="index.html" onclick="Submit_form()">Login</a></button>
+              <p class="text" style="margin-top: 40px; margin-left: 50px;">Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </div>
+    <script >
+        function Submit_form(){
+            alert("Login Successfully");
+        }
+        
+    </script>
+</body>
+</html>
